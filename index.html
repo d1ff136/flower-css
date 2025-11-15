@@ -244,7 +244,7 @@
     </footer>
     <!-- (перенесу в папку js пізніше) -->
     <script>
-        // Burger menu toggle
+
         const menuButton = document.querySelector('#header-button-area button');
         const burgerMenu = document.querySelector('#burger-menu');
 
@@ -253,7 +253,6 @@
             burgerMenu.classList.toggle('burger-menu-show');
         });
 
-        // Close menu on link click
         document.querySelectorAll('#burger-menu a').forEach(link => {
             link.addEventListener('click', () => {
                 burgerMenu.classList.add('burger-menu-hidden');
